@@ -1,0 +1,24 @@
+#__plasmo,
+.height100Percent {
+    height: 100% !important;
+}
+
+.scroll-y-auto {
+    overflow-y: auto;
+}
+
+
+.rule-switch {
+    --el-switch-on-color: #13ce66 !important;
+    --el-switch-off-color: #ff4949 !important;
+}
+
+.rule-switch ::v-deep(.el-switch__label--left.is-active) {
+    color: #ff4949 !important;
+    /* 开启时左侧文字颜色（可选） */
+}
+
+.rule-switch ::v-deep(.el-switch__label--right.is-active) {
+    color: #13ce66 !important;
+    /* 开启时右侧文字颜色 */
+}

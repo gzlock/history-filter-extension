@@ -1,0 +1,143 @@
+{
+    "extensionName": {
+        "message": "浏览记录拦截器"
+    },
+    "extensionDesc": {
+        "message": "只拦截浏览记录，不接管浏览器的历史记录页面。支持通配符，精准控制需要保留的浏览足迹。"
+    },
+    "tabNameEditor": {
+        "message": "规则编辑器"
+    },
+    "tabNameAbout": {
+        "message": "关于"
+    },
+    "tabNameLog": {
+        "message": "日志"
+    },
+    "blockRules": {
+        "message": "只拦截符合规则的浏览记录"
+    },
+    "blockRulesShort": {
+        "message": "只拦截规则"
+    },
+    "allowRules": {
+        "message": "只放行符合规则的浏览记录"
+    },
+    "allowRulesShort": {
+        "message": "只放行规则"
+    },
+    "search": {
+        "message": "搜索"
+    },
+    "enableWildcard": {
+        "message": "启用通配符模式"
+    },
+    "save": {
+        "message": "保存"
+    },
+    "addRule": {
+        "message": "新增规则"
+    },
+    "deleteRule": {
+        "message": "删除规则"
+    },
+    "editRule": {
+        "message": "编辑规则"
+    },
+    "ruleExists": {
+        "message": "规则 {pattern} 已存在"
+    },
+    "confirmDelete": {
+        "message": "确定删除规则 {pattern} 吗？"
+    },
+    "testInputAreaTips": {
+        "message": "每行一个URL，测试是否匹配"
+    },
+    "testResult": {
+        "message": "测试结果"
+    },
+    "test": {
+        "message": "测试"
+    },
+    "emptyRulePattern": {
+        "message": "规则不能为空"
+    },
+    "aboutContent": {
+        "message": "<h1>关于 {name} {version}</h1><ul><li>作者: {author}</li><li>开源: <a target='_blank' href='https://github.com/gzlock/history-blocker'>Github</a></li></ul>"
+    },
+    "logTips": {
+        "message": "最多记录100条，最新的记录在最上，当前记录数量:"
+    },
+    "matched": {
+        "message": "匹配"
+    },
+    "intercepted": {
+        "message": "拦截"
+    },
+    "notMatched": {
+        "message": "不符合所有规则"
+    },
+    "clearLog": {
+        "message": "清空日志"
+    },
+    "wildcardStarDisc": {
+        "message": "匹配多个任意字符，包括空字符。"
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "匹配单个任意字符，包括空字符。"
+    },
+    "wildcard": {
+        "message": "通配符符号"
+    },
+    "wildcardDisc": {
+        "message": "通配符说明"
+    },
+    "noActiveRules": {
+        "message": "没有生效的规则"
+    },
+    "activeRules": {
+        "message": "已经生效的规则"
+    },
+    "interceptedCount": {
+        "message": "拦截次数"
+    },
+    "openEditor": {
+        "message": "打开编辑器"
+    },
+    "openLog": {
+        "message": "查看日志"
+    },
+    "ruleMode": {
+        "message": "规则模式"
+    },
+    "ruleModeDisc": {
+        "message": "此时比全局模式更优先"
+    },
+    "modeDisable": {
+        "message": "禁用"
+    },
+    "globalMode": {
+        "message": "全局模式"
+    },
+    "modeFllowGlobal": {
+        "message": "跟随全局"
+    },
+    "modelBlock": {
+        "message": "拦截"
+    },
+    "modelAllow": {
+        "message": "放行"
+    },
+    "showBadge": {
+        "message": "显示拦截次数"
+    },
+    "darkMode": {
+        "message": "黑暗模式"
+    },
+    "rulesEmpty": {
+        "message": "没有数据"
+    },
+    "issue": {
+        "message": "遇到使用问题？请在这里发表您的问题：https://github.com/gzlock/history-blocker/issues"
+    }
+}

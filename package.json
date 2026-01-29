@@ -1,0 +1,41 @@
+{
+  "name": "history-filter",
+  "displayName": "__MSG_extensionName__",
+  "version": "0.0.1",
+  "description": "__MSG_extensionDesc__",
+  "author": "gzlock88@gmail.com",
+  "type": "module",
+  "scripts": {
+    "dev": "plasmo dev --hmr-host=0.0.0.0",
+    "build": "plasmo build",
+    "package": "plasmo package",
+    "screenshot": "node ./screenshot.js"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@vueuse/core": "^14.1.0",
+    "dayjs": "^1.11.19",
+    "element-plus": "^2.13.1",
+    "plasmo": "0.90.5",
+    "playwright": "^1.57.0",
+    "vue": "3.4.15"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@playwright/test": "^1.57.0",
+    "@types/chrome": "0.0.258",
+    "@types/node": "20.11.5",
+    "prettier": "3.2.4",
+    "typescript": "5.3.3"
+  },
+  "manifest": {
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgoP+DdADaFq6KZ3uufWpZgqCzUks8N3gAGWmTaEH48ymsoeeXznTqmfiQZWnrJDz5BwsRgts7AoGINQlVhHov0LFYCNzDudZCwcjqP63eGZmOhuPs7fyoRA+Fr71UAvPPRHuiJaQjPc9qqfTBdRY+ClK56n8PROUNIz0+rF9ZqmFCXO4YAB79DQ3Wy+NdlGXxm2PAYlroYXUT/3+2Qm8W6QVr5P4xKx8JolTMHvAhe8rahxa5p1NVNFZgVwL/gFS42E4UER/h0jqiaFnOxOkpW1k8ur6L4tgb5XSGqtehP+erdPxHVOMAYwMCn1u8pZDnFUdkyb1iCpA4LfrvPQOvQIDAQAB",
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "permissions": [
+      "storage",
+      "history"
+    ]
+  }
+}
