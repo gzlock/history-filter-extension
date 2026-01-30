@@ -1,7 +1,7 @@
 {
   "name": "history-filter",
   "displayName": "__MSG_extensionName__",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "__MSG_extensionDesc__",
   "author": "gzlock88@gmail.com",
   "type": "module",
