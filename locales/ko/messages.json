@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "검색 기록 차단기"
+    },
+    "extensionDesc": {
+        "message": "기록 페이지를 대체하지 않고 기록만 차단합니다. 와일드카드를 지원하여 보관할 기록을 정밀하게 제어합니다."
+    },
+    "tabNameEditor": {
+        "message": "규칙 편집기"
+    },
+    "tabNameAbout": {
+        "message": "정보"
+    },
+    "tabNameLog": {
+        "message": "로그"
+    },
+    "blockRules": {
+        "message": "규칙에 맞는 기록만 차단"
+    },
+    "blockRulesShort": {
+        "message": "차단 규칙"
+    },
+    "allowRules": {
+        "message": "규칙에 맞는 기록만 허용"
+    },
+    "allowRulesShort": {
+        "message": "허용 규칙"
+    },
+    "search": {
+        "message": "검색"
+    },
+    "enableWildcard": {
+        "message": "와일드카드 모드 활성화"
+    },
+    "save": {
+        "message": "저장"
+    },
+    "addRule": {
+        "message": "규칙 추가"
+    },
+    "deleteRule": {
+        "message": "규칙 삭제"
+    },
+    "editRule": {
+        "message": "규칙 편집"
+    },
+    "ruleExists": {
+        "message": "규칙 {pattern}이(가) 이미 존재합니다"
+    },
+    "confirmDelete": {
+        "message": "{pattern} 규칙을 삭제하시겠습니까?"
+    },
+    "testInputAreaTips": {
+        "message": "줄바꿈으로 구분된 URL을 입력하여 테스트"
+    },
+    "testResult": {
+        "message": "테스트 결과"
+    },
+    "test": {
+        "message": "테스트"
+    },
+    "emptyRulePattern": {
+        "message": "규칙은 비워둘 수 없습니다"
+    },
+    "aboutContent": {
+        "message": "<h1>정보 {name} {version}</h1><ul><li>작성자: {author}</li><li>오픈 소스: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>이슈 보고</a></li></ul>"
+    },
+    "logTips": {
+        "message": "최대 100개 기록, 현재 기록 수:"
+    },
+    "matched": {
+        "message": "일치"
+    },
+    "intercepted": {
+        "message": "차단됨"
+    },
+    "notMatched": {
+        "message": "일치하는 규칙 없음"
+    },
+    "clearLog": {
+        "message": "로그 삭제"
+    },
+    "wildcardStarDisc": {
+        "message": "빈 문자를 포함한 여러 임의의 문자와 일치합니다."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "빈 문자를 포함한 단일 임의의 문자와 일치합니다."
+    },
+    "wildcard": {
+        "message": "와일드카드 기호"
+    },
+    "wildcardDisc": {
+        "message": "와일드카드 설명"
+    },
+    "noActiveRules": {
+        "message": "활성화된 규칙 없음"
+    },
+    "activeRules": {
+        "message": "활성화된 규칙"
+    },
+    "interceptedCount": {
+        "message": "차단 횟수"
+    },
+    "openEditor": {
+        "message": "편집기 열기"
+    },
+    "openLog": {
+        "message": "로그 보기"
+    },
+    "ruleMode": {
+        "message": "규칙 모드"
+    },
+    "ruleModeDisc": {
+        "message": "전역 모드보다 우선 적용됨"
+    },
+    "modeDisable": {
+        "message": "비활성화"
+    },
+    "globalMode": {
+        "message": "전역 모드"
+    },
+    "modeFllowGlobal": {
+        "message": "전역 설정 따름"
+    },
+    "modelBlock": {
+        "message": "차단"
+    },
+    "modelAllow": {
+        "message": "허용"
+    },
+    "showBadge": {
+        "message": "배지 표시"
+    },
+    "darkMode": {
+        "message": "다크 모드"
+    },
+    "rulesEmpty": {
+        "message": "데이터 없음"
+    }
+}

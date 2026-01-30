@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Interceptor de historial"
+    },
+    "extensionDesc": {
+        "message": "Intercepta el historial sin reemplazar la página de historial. Admite comodines para un control preciso de los rastros."
+    },
+    "tabNameEditor": {
+        "message": "Editor de reglas"
+    },
+    "tabNameAbout": {
+        "message": "Acerca de"
+    },
+    "tabNameLog": {
+        "message": "Registro"
+    },
+    "blockRules": {
+        "message": "Bloquear historial según reglas"
+    },
+    "blockRulesShort": {
+        "message": "Reglas de bloqueo"
+    },
+    "allowRules": {
+        "message": "Permitir historial según reglas"
+    },
+    "allowRulesShort": {
+        "message": "Reglas de permiso"
+    },
+    "search": {
+        "message": "Buscar"
+    },
+    "enableWildcard": {
+        "message": "Activar comodines"
+    },
+    "save": {
+        "message": "Guardar"
+    },
+    "addRule": {
+        "message": "Añadir regla"
+    },
+    "deleteRule": {
+        "message": "Eliminar regla"
+    },
+    "editRule": {
+        "message": "Editar regla"
+    },
+    "ruleExists": {
+        "message": "La regla {pattern} ya existe"
+    },
+    "confirmDelete": {
+        "message": "¿Eliminar la regla {pattern}?"
+    },
+    "testInputAreaTips": {
+        "message": "Una URL por línea para probar"
+    },
+    "testResult": {
+        "message": "Resultado de la prueba"
+    },
+    "test": {
+        "message": "Probar"
+    },
+    "emptyRulePattern": {
+        "message": "La regla no puede estar vacía"
+    },
+    "aboutContent": {
+        "message": "<h1>Acerca de {name} {version}</h1><ul><li>Autor: {author}</li><li>Código abierto: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter-extension/issues'>Reportar problemas</a></li></ul>"
+    },
+    "logTips": {
+        "message": "Máximo 100 entradas. Actual:"
+    },
+    "matched": {
+        "message": "Coincide"
+    },
+    "intercepted": {
+        "message": "Interceptado"
+    },
+    "notMatched": {
+        "message": "Sin coincidencias"
+    },
+    "clearLog": {
+        "message": "Limpiar registro"
+    },
+    "wildcardStarDisc": {
+        "message": "Coincide con varios caracteres (incluido vacío)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "Coincide con un solo carácter (incluido vacío)."
+    },
+    "wildcard": {
+        "message": "Símbolo de comodín"
+    },
+    "wildcardDisc": {
+        "message": "Descripción de comodines"
+    },
+    "noActiveRules": {
+        "message": "Sin reglas activas"
+    },
+    "activeRules": {
+        "message": "Reglas activas"
+    },
+    "interceptedCount": {
+        "message": "Total interceptado"
+    },
+    "openEditor": {
+        "message": "Abrir editor"
+    },
+    "openLog": {
+        "message": "Ver registro"
+    },
+    "ruleMode": {
+        "message": "Modo de regla"
+    },
+    "ruleModeDisc": {
+        "message": "Prioridad sobre el modo global"
+    },
+    "modeDisable": {
+        "message": "Desactivar"
+    },
+    "globalMode": {
+        "message": "Modo global"
+    },
+    "modeFllowGlobal": {
+        "message": "Seguir global"
+    },
+    "modelBlock": {
+        "message": "Bloquear"
+    },
+    "modelAllow": {
+        "message": "Permitir"
+    },
+    "showBadge": {
+        "message": "Mostrar contador"
+    },
+    "darkMode": {
+        "message": "Modo oscuro"
+    },
+    "rulesEmpty": {
+        "message": "Sin datos"
+    }
+}

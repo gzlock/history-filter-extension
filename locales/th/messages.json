@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "ตัวสกัดกั้นประวัติการเข้าชม"
+    },
+    "extensionDesc": {
+        "message": "สกัดกั้นประวัติโดยไม่แทนที่หน้าประวัติ รองรับการใช้ Wildcard เพื่อควบคุมการเก็บร่องรอยการท่องเว็บอย่างแม่นยำ"
+    },
+    "tabNameEditor": {
+        "message": "ตัวแก้ไขกฎ"
+    },
+    "tabNameAbout": {
+        "message": "เกี่ยวกับ"
+    },
+    "tabNameLog": {
+        "message": "บันทึก"
+    },
+    "blockRules": {
+        "message": "สกัดกั้นเฉพาะที่ตรงตามกฎ"
+    },
+    "blockRulesShort": {
+        "message": "กฎการสกัดกั้น"
+    },
+    "allowRules": {
+        "message": "อนุญาตเฉพาะที่ตรงตามกฎ"
+    },
+    "allowRulesShort": {
+        "message": "กฎการอนุญาต"
+    },
+    "search": {
+        "message": "ค้นหา"
+    },
+    "enableWildcard": {
+        "message": "เปิดใช้โหมด Wildcard"
+    },
+    "save": {
+        "message": "บันทึก"
+    },
+    "addRule": {
+        "message": "เพิ่มกฎ"
+    },
+    "deleteRule": {
+        "message": "ลบกฎ"
+    },
+    "editRule": {
+        "message": "แก้ไขกฎ"
+    },
+    "ruleExists": {
+        "message": "กฎ {pattern} มีอยู่แล้ว"
+    },
+    "confirmDelete": {
+        "message": "ยืนยันการลบกฎ {pattern}?"
+    },
+    "testInputAreaTips": {
+        "message": "ป้อน URL หนึ่งรายการต่อบรรทัดเพื่อทดสอบ"
+    },
+    "testResult": {
+        "message": "ผลการทดสอบ"
+    },
+    "test": {
+        "message": "ทดสอบ"
+    },
+    "emptyRulePattern": {
+        "message": "กฎต้องไม่ว่างเปล่า"
+    },
+    "aboutContent": {
+        "message": "<h1>เกี่ยวกับ {name} {version}</h1><ul><li>ผู้เขียน: {author}</li><li>โอเพนซอร์ส: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>รายงานปัญหา</a></li></ul>"
+    },
+    "logTips": {
+        "message": "บันทึกสูงสุด 100 รายการ จำนวนปัจจุบัน:"
+    },
+    "matched": {
+        "message": "ตรงกัน"
+    },
+    "intercepted": {
+        "message": "สกัดกั้นแล้ว"
+    },
+    "notMatched": {
+        "message": "ไม่ตรงกับกฎใดๆ"
+    },
+    "clearLog": {
+        "message": "ล้างบันทึก"
+    },
+    "wildcardStarDisc": {
+        "message": "จับคู่หลายตัวอักษรใดๆ (รวมถึงค่าว่าง)"
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "จับคู่หนึ่งตัวอักษรใดๆ (รวมถึงค่าว่าง)"
+    },
+    "wildcard": {
+        "message": "สัญลักษณ์ Wildcard"
+    },
+    "wildcardDisc": {
+        "message": "คำอธิบาย Wildcard"
+    },
+    "noActiveRules": {
+        "message": "ไม่มีกฎที่มีผลใช้บังคับ"
+    },
+    "activeRules": {
+        "message": "กฎที่มีผลใช้บังคับ"
+    },
+    "interceptedCount": {
+        "message": "จำนวนการสกัดกั้น"
+    },
+    "openEditor": {
+        "message": "เปิดตัวแก้ไข"
+    },
+    "openLog": {
+        "message": "ดูบันทึก"
+    },
+    "ruleMode": {
+        "message": "โหมดกฎ"
+    },
+    "ruleModeDisc": {
+        "message": "ลำดับความสำคัญสูงกว่าโหมดส่วนกลาง"
+    },
+    "modeDisable": {
+        "message": "ปิดใช้งาน"
+    },
+    "globalMode": {
+        "message": "โหมดส่วนกลาง"
+    },
+    "modeFllowGlobal": {
+        "message": "ตามส่วนกลาง"
+    },
+    "modelBlock": {
+        "message": "สกัดกั้น"
+    },
+    "modelAllow": {
+        "message": "อนุญาต"
+    },
+    "showBadge": {
+        "message": "แสดงจำนวนการสกัดกั้น"
+    },
+    "darkMode": {
+        "message": "โหมดมืด"
+    },
+    "rulesEmpty": {
+        "message": "ไม่มีข้อมูล"
+    }
+}

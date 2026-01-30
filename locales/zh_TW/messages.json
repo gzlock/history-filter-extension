@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "瀏覽紀錄攔截器"
+    },
+    "extensionDesc": {
+        "message": "只攔截瀏覽紀錄，不接管瀏覽器的歷史紀錄頁面。支援萬用字元，精準控制需要保留的瀏覽足跡。"
+    },
+    "tabNameEditor": {
+        "message": "規則編輯器"
+    },
+    "tabNameAbout": {
+        "message": "關於"
+    },
+    "tabNameLog": {
+        "message": "日誌"
+    },
+    "blockRules": {
+        "message": "只攔截符合規則的瀏覽紀錄"
+    },
+    "blockRulesShort": {
+        "message": "只攔截規則"
+    },
+    "allowRules": {
+        "message": "只放行符合規則的瀏覽紀錄"
+    },
+    "allowRulesShort": {
+        "message": "只放行規則"
+    },
+    "search": {
+        "message": "搜尋"
+    },
+    "enableWildcard": {
+        "message": "啟用萬用字元模式"
+    },
+    "save": {
+        "message": "儲存"
+    },
+    "addRule": {
+        "message": "新增規則"
+    },
+    "deleteRule": {
+        "message": "刪除規則"
+    },
+    "editRule": {
+        "message": "編輯規則"
+    },
+    "ruleExists": {
+        "message": "規則 {pattern} 已存在"
+    },
+    "confirmDelete": {
+        "message": "確定刪除規則 {pattern} 嗎？"
+    },
+    "testInputAreaTips": {
+        "message": "每行一個URL，測試是否匹配"
+    },
+    "testResult": {
+        "message": "測試結果"
+    },
+    "test": {
+        "message": "測試"
+    },
+    "emptyRulePattern": {
+        "message": "規則不能為空"
+    },
+    "aboutContent": {
+        "message": "<h1>關於 {name} {version}</h1><ul><li>作者: {author}</li><li>開源: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>提交遇到的使用問題</a></li></ul>"
+    },
+    "logTips": {
+        "message": "最多記錄100條，當前記錄數量:"
+    },
+    "matched": {
+        "message": "匹配"
+    },
+    "intercepted": {
+        "message": "攔截"
+    },
+    "notMatched": {
+        "message": "不符合所有規則"
+    },
+    "clearLog": {
+        "message": "清空日誌"
+    },
+    "wildcardStarDisc": {
+        "message": "匹配多個任意字元，包括空字元。"
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "匹配單個任意字元，包括空字元。"
+    },
+    "wildcard": {
+        "message": "萬用字元符號"
+    },
+    "wildcardDisc": {
+        "message": "萬用字元說明"
+    },
+    "noActiveRules": {
+        "message": "沒有生效的規則"
+    },
+    "activeRules": {
+        "message": "已經生效的規則"
+    },
+    "interceptedCount": {
+        "message": "攔截次數"
+    },
+    "openEditor": {
+        "message": "打開編輯器"
+    },
+    "openLog": {
+        "message": "查看日誌"
+    },
+    "ruleMode": {
+        "message": "規則模式"
+    },
+    "ruleModeDisc": {
+        "message": "此時比全域模式更優先"
+    },
+    "modeDisable": {
+        "message": "停用"
+    },
+    "globalMode": {
+        "message": "全域模式"
+    },
+    "modeFllowGlobal": {
+        "message": "跟隨全域"
+    },
+    "modelBlock": {
+        "message": "攔截"
+    },
+    "modelAllow": {
+        "message": "放行"
+    },
+    "showBadge": {
+        "message": "顯示攔截次數"
+    },
+    "darkMode": {
+        "message": "深色模式"
+    },
+    "rulesEmpty": {
+        "message": "沒有數據"
+    }
+}

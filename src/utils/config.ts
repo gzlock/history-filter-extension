@@ -71,14 +71,16 @@ export async function loadLogs(): Promise<LogItem[]> {
     return stored.map(fromStoredLog);
 }
 export async function addLog(log: LogItem) {
-    const logs = await loadLogs();
-    logs.push(log);
-    // 限制最多100条
-    if (logs.length > 100) {
-        logs.shift();
-    }
-    const stored = logs.map(toStoredLog);
-    return chrome.storage.local.set({ logs: stored });
+    await navigator.locks.request('add_log', async () => {
+        const logs = await loadLogs();
+        logs.push(log);
+        // 限制最多100条
+        if (logs.length > 100) {
+            logs.shift();
+        }
+        const stored = logs.map(toStoredLog);
+        await chrome.storage.local.set({ logs: stored });
+    });
 }
 export function clearConfig() {
     // 清空所有扩展配置
@@ -86,7 +88,7 @@ export function clearConfig() {
 }
 
 export function clearLog() {
-    return chrome.storage.local.set({ logs: [] });
+    return chrome.storage.local.clear();
 }
 
 export function createId(): string {

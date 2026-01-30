@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Interceptador de Histórico"
+    },
+    "extensionDesc": {
+        "message": "Intercepta o histórico sem substituir a página de histórico. Suporta curingas para controle preciso dos rastros."
+    },
+    "tabNameEditor": {
+        "message": "Editor de Regras"
+    },
+    "tabNameAbout": {
+        "message": "Sobre"
+    },
+    "tabNameLog": {
+        "message": "Log"
+    },
+    "blockRules": {
+        "message": "Bloquear apenas o que corresponder"
+    },
+    "blockRulesShort": {
+        "message": "Regras de Bloqueio"
+    },
+    "allowRules": {
+        "message": "Permitir apenas o que corresponder"
+    },
+    "allowRulesShort": {
+        "message": "Regras de Permissão"
+    },
+    "search": {
+        "message": "Pesquisar"
+    },
+    "enableWildcard": {
+        "message": "Ativar Curingas"
+    },
+    "save": {
+        "message": "Salvar"
+    },
+    "addRule": {
+        "message": "Nova Regra"
+    },
+    "deleteRule": {
+        "message": "Excluir Regra"
+    },
+    "editRule": {
+        "message": "Editar Regra"
+    },
+    "ruleExists": {
+        "message": "A regra {pattern} já existe"
+    },
+    "confirmDelete": {
+        "message": "Deseja excluir a regra {pattern}?"
+    },
+    "testInputAreaTips": {
+        "message": "Um URL por linha para testar"
+    },
+    "testResult": {
+        "message": "Resultado do Teste"
+    },
+    "test": {
+        "message": "Testar"
+    },
+    "emptyRulePattern": {
+        "message": "A regra não pode estar vazia"
+    },
+    "aboutContent": {
+        "message": "<h1>Sobre {name} {version}</h1><ul><li>Autor: {author}</li><li>Código Aberto: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>Relatar Problemas</a></li></ul>"
+    },
+    "logTips": {
+        "message": "Máximo de 100 entradas. Atual:"
+    },
+    "matched": {
+        "message": "Correspondido"
+    },
+    "intercepted": {
+        "message": "Interceptado"
+    },
+    "notMatched": {
+        "message": "Nenhuma regra correspondente"
+    },
+    "clearLog": {
+        "message": "Limpar Log"
+    },
+    "wildcardStarDisc": {
+        "message": "Corresponde a múltiplos caracteres (incluindo vazio)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "Corresponde a um único caractere (incluindo vazio)."
+    },
+    "wildcard": {
+        "message": "Símbolo Curinga"
+    },
+    "wildcardDisc": {
+        "message": "Sobre Curingas"
+    },
+    "noActiveRules": {
+        "message": "Sem regras ativas"
+    },
+    "activeRules": {
+        "message": "Regras Ativas"
+    },
+    "interceptedCount": {
+        "message": "Total de Interceptações"
+    },
+    "openEditor": {
+        "message": "Abrir Editor"
+    },
+    "openLog": {
+        "message": "Ver Log"
+    },
+    "ruleMode": {
+        "message": "Modo de Regra"
+    },
+    "ruleModeDisc": {
+        "message": "Prioridade sobre o modo global"
+    },
+    "modeDisable": {
+        "message": "Desativar"
+    },
+    "globalMode": {
+        "message": "Modo Global"
+    },
+    "modeFllowGlobal": {
+        "message": "Seguir Global"
+    },
+    "modelBlock": {
+        "message": "Bloquear"
+    },
+    "modelAllow": {
+        "message": "Permitir"
+    },
+    "showBadge": {
+        "message": "Mostrar Contador"
+    },
+    "darkMode": {
+        "message": "Modo Escuro"
+    },
+    "rulesEmpty": {
+        "message": "Sem dados"
+    }
+}

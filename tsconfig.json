@@ -17,7 +17,8 @@
     "types": [
       "vue",
       "chrome",
-      "element-plus/global"
+      "element-plus/global",
+      "node"
     ],
     "baseUrl": "."
   }

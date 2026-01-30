@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "閲覧履歴インターセプター"
+    },
+    "extensionDesc": {
+        "message": "履歴ページを置き換えずに閲覧履歴のみをブロック。ワイルドカードにより履歴の保存を正確に制御できます。"
+    },
+    "tabNameEditor": {
+        "message": "ルールエディタ"
+    },
+    "tabNameAbout": {
+        "message": "詳細"
+    },
+    "tabNameLog": {
+        "message": "ログ"
+    },
+    "blockRules": {
+        "message": "一致する履歴のみをブロック"
+    },
+    "blockRulesShort": {
+        "message": "ブロックルール"
+    },
+    "allowRules": {
+        "message": "一致する履歴のみを許可"
+    },
+    "allowRulesShort": {
+        "message": "許可ルール"
+    },
+    "search": {
+        "message": "検索"
+    },
+    "enableWildcard": {
+        "message": "ワイルドカードを有効にする"
+    },
+    "save": {
+        "message": "保存"
+    },
+    "addRule": {
+        "message": "ルールの追加"
+    },
+    "deleteRule": {
+        "message": "ルールの削除"
+    },
+    "editRule": {
+        "message": "ルールの編集"
+    },
+    "ruleExists": {
+        "message": "ルール {pattern} は既に存在します"
+    },
+    "confirmDelete": {
+        "message": "ルール {pattern} を削除しますか？"
+    },
+    "testInputAreaTips": {
+        "message": "1行に1つのURLを入力してテスト"
+    },
+    "testResult": {
+        "message": "テスト結果"
+    },
+    "test": {
+        "message": "テスト"
+    },
+    "emptyRulePattern": {
+        "message": "ルールを空にすることはできません"
+    },
+    "aboutContent": {
+        "message": "<h1>{name} {version} について</h1><ul><li>作成者: {author}</li><li>オープンソース: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>不具合の報告</a></li></ul>"
+    },
+    "logTips": {
+        "message": "最大100件、現在の記録数:"
+    },
+    "matched": {
+        "message": "一致"
+    },
+    "intercepted": {
+        "message": "ブロック済み"
+    },
+    "notMatched": {
+        "message": "どのルールにも一致しません"
+    },
+    "clearLog": {
+        "message": "ログをクリア"
+    },
+    "wildcardStarDisc": {
+        "message": "空文字を含む、複数の任意の文字に一致します。"
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "空文字を含む、単一の任意の文字に一致します。"
+    },
+    "wildcard": {
+        "message": "ワイルドカード記号"
+    },
+    "wildcardDisc": {
+        "message": "ワイルドカードの説明"
+    },
+    "noActiveRules": {
+        "message": "有効なルールなし"
+    },
+    "activeRules": {
+        "message": "有効なルール"
+    },
+    "interceptedCount": {
+        "message": "ブロック回数"
+    },
+    "openEditor": {
+        "message": "エディタを開く"
+    },
+    "openLog": {
+        "message": "ログを表示"
+    },
+    "ruleMode": {
+        "message": "ルールモード"
+    },
+    "ruleModeDisc": {
+        "message": "グローバルモードより優先されます"
+    },
+    "modeDisable": {
+        "message": "無効"
+    },
+    "globalMode": {
+        "message": "グローバルモード"
+    },
+    "modeFllowGlobal": {
+        "message": "グローバルに従う"
+    },
+    "modelBlock": {
+        "message": "ブロック"
+    },
+    "modelAllow": {
+        "message": "許可"
+    },
+    "showBadge": {
+        "message": "バッジを表示"
+    },
+    "darkMode": {
+        "message": "ダークモード"
+    },
+    "rulesEmpty": {
+        "message": "データなし"
+    }
+}

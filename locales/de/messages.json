@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Verlauf-Interceptor"
+    },
+    "extensionDesc": {
+        "message": "Blockiert Verlaufsdaten ohne die Verlaufsseite zu ersetzen. Platzhalter-Support für präzise Verlaufskontrolle."
+    },
+    "tabNameEditor": {
+        "message": "Regel-Editor"
+    },
+    "tabNameAbout": {
+        "message": "Über"
+    },
+    "tabNameLog": {
+        "message": "Protokoll"
+    },
+    "blockRules": {
+        "message": "Nur übereinstimmende Einträge blockieren"
+    },
+    "blockRulesShort": {
+        "message": "Blockierregeln"
+    },
+    "allowRules": {
+        "message": "Nur übereinstimmende Einträge zulassen"
+    },
+    "allowRulesShort": {
+        "message": "Zulassungsregeln"
+    },
+    "search": {
+        "message": "Suchen"
+    },
+    "enableWildcard": {
+        "message": "Platzhaltermodus aktivieren"
+    },
+    "save": {
+        "message": "Speichern"
+    },
+    "addRule": {
+        "message": "Regel hinzufügen"
+    },
+    "deleteRule": {
+        "message": "Regel löschen"
+    },
+    "editRule": {
+        "message": "Regel bearbeiten"
+    },
+    "ruleExists": {
+        "message": "Regel {pattern} existiert bereits"
+    },
+    "confirmDelete": {
+        "message": "Regel {pattern} wirklich löschen?"
+    },
+    "testInputAreaTips": {
+        "message": "Eine URL pro Zeile zum Testen"
+    },
+    "testResult": {
+        "message": "Testergebnis"
+    },
+    "test": {
+        "message": "Testen"
+    },
+    "emptyRulePattern": {
+        "message": "Regel darf nicht leer sein"
+    },
+    "aboutContent": {
+        "message": "<h1>Über {name} {version}</h1><ul><li>Autor: {author}</li><li>Open Source: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter-extension/issues'>Problem melden</a></li></ul>"
+    },
+    "logTips": {
+        "message": "Max. 100 Einträge. Aktuell:"
+    },
+    "matched": {
+        "message": "Treffer"
+    },
+    "intercepted": {
+        "message": "Blockiert"
+    },
+    "notMatched": {
+        "message": "Keine Regel trifft zu"
+    },
+    "clearLog": {
+        "message": "Protokoll leeren"
+    },
+    "wildcardStarDisc": {
+        "message": "Entspricht mehreren beliebigen Zeichen (auch leer)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "Entspricht einem beliebigen Zeichen (auch leer)."
+    },
+    "wildcard": {
+        "message": "Platzhalter-Symbol"
+    },
+    "wildcardDisc": {
+        "message": "Platzhalter-Info"
+    },
+    "noActiveRules": {
+        "message": "Keine aktiven Regeln"
+    },
+    "activeRules": {
+        "message": "Aktive Regeln"
+    },
+    "interceptedCount": {
+        "message": "Blockiert-Zähler"
+    },
+    "openEditor": {
+        "message": "Editor öffnen"
+    },
+    "openLog": {
+        "message": "Protokoll ansehen"
+    },
+    "ruleMode": {
+        "message": "Regel-Modus"
+    },
+    "ruleModeDisc": {
+        "message": "Priorität vor Global-Modus"
+    },
+    "modeDisable": {
+        "message": "Deaktiviert"
+    },
+    "globalMode": {
+        "message": "Global-Modus"
+    },
+    "modeFllowGlobal": {
+        "message": "Global folgen"
+    },
+    "modelBlock": {
+        "message": "Blockieren"
+    },
+    "modelAllow": {
+        "message": "Zulassen"
+    },
+    "showBadge": {
+        "message": "Badge anzeigen"
+    },
+    "darkMode": {
+        "message": "Dunkelmodus"
+    },
+    "rulesEmpty": {
+        "message": "Keine Daten"
+    }
+}

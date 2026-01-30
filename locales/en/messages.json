@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "History Interceptor"
+    },
+    "extensionDesc": {
+        "message": "Intercepts history entries without taking over the history page. Supports wildcards for precise control of history traces."
+    },
+    "tabNameEditor": {
+        "message": "Rule Editor"
+    },
+    "tabNameAbout": {
+        "message": "About"
+    },
+    "tabNameLog": {
+        "message": "Log"
+    },
+    "blockRules": {
+        "message": "Block history matching rules"
+    },
+    "blockRulesShort": {
+        "message": "Block Rules"
+    },
+    "allowRules": {
+        "message": "Allow history matching rules"
+    },
+    "allowRulesShort": {
+        "message": "Allow Rules"
+    },
+    "search": {
+        "message": "Search"
+    },
+    "enableWildcard": {
+        "message": "Enable Wildcards"
+    },
+    "save": {
+        "message": "Save"
+    },
+    "addRule": {
+        "message": "Add Rule"
+    },
+    "deleteRule": {
+        "message": "Delete Rule"
+    },
+    "editRule": {
+        "message": "Edit Rule"
+    },
+    "ruleExists": {
+        "message": "Rule {pattern} already exists"
+    },
+    "confirmDelete": {
+        "message": "Delete rule {pattern}?"
+    },
+    "testInputAreaTips": {
+        "message": "One URL per line to test matching"
+    },
+    "testResult": {
+        "message": "Test Results"
+    },
+    "test": {
+        "message": "Test"
+    },
+    "emptyRulePattern": {
+        "message": "Rule cannot be empty"
+    },
+    "aboutContent": {
+        "message": "<h1>About {name} {version}</h1><ul><li>Author: {author}</li><li>Open Source: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter-extension/issues'>Report Issues</a></li></ul>"
+    },
+    "logTips": {
+        "message": "Max 100 entries. Current count:"
+    },
+    "matched": {
+        "message": "Matched"
+    },
+    "intercepted": {
+        "message": "Intercepted"
+    },
+    "notMatched": {
+        "message": "No match"
+    },
+    "clearLog": {
+        "message": "Clear Log"
+    },
+    "wildcardStarDisc": {
+        "message": "Matches any sequence of characters (including empty)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "Matches any single character."
+    },
+    "wildcard": {
+        "message": "Wildcard Symbol"
+    },
+    "wildcardDisc": {
+        "message": "Wildcard Help"
+    },
+    "noActiveRules": {
+        "message": "No active rules"
+    },
+    "activeRules": {
+        "message": "Active Rules"
+    },
+    "interceptedCount": {
+        "message": "Intercept Count"
+    },
+    "openEditor": {
+        "message": "Open Editor"
+    },
+    "openLog": {
+        "message": "View Log"
+    },
+    "ruleMode": {
+        "message": "Rule Mode"
+    },
+    "ruleModeDisc": {
+        "message": "Overrides global mode"
+    },
+    "modeDisable": {
+        "message": "Disabled"
+    },
+    "globalMode": {
+        "message": "Global Mode"
+    },
+    "modeFllowGlobal": {
+        "message": "Follow Global"
+    },
+    "modelBlock": {
+        "message": "Block"
+    },
+    "modelAllow": {
+        "message": "Allow"
+    },
+    "showBadge": {
+        "message": "Show Badge"
+    },
+    "darkMode": {
+        "message": "Dark Mode"
+    },
+    "rulesEmpty": {
+        "message": "No data"
+    }
+}

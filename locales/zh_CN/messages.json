@@ -63,10 +63,10 @@
         "message": "规则不能为空"
     },
     "aboutContent": {
-        "message": "<h1>关于 {name} {version}</h1><ul><li>作者: {author}</li><li>开源: <a target='_blank' href='https://github.com/gzlock/history-blocker'>Github</a></li></ul>"
+        "message": "<h1>关于 {name} {version}</h1><ul><li>作者: {author}</li><li>开源: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>提交遇到的使用问题</a></li></ul>"
     },
     "logTips": {
-        "message": "最多记录100条，最新的记录在最上，当前记录数量:"
+        "message": "最多记录100条，当前记录数量:"
     },
     "matched": {
         "message": "匹配"
@@ -136,8 +136,5 @@
     },
     "rulesEmpty": {
         "message": "没有数据"
-    },
-    "issue": {
-        "message": "遇到使用问题？请在这里发表您的问题：https://github.com/gzlock/history-blocker/issues"
     }
 }

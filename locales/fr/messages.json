@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Intercepteur d'historique"
+    },
+    "extensionDesc": {
+        "message": "Intercepte l'historique sans remplacer la page d'historique. Supporte les jokers pour un contrôle précis des traces."
+    },
+    "tabNameEditor": {
+        "message": "Éditeur de règles"
+    },
+    "tabNameAbout": {
+        "message": "À propos"
+    },
+    "tabNameLog": {
+        "message": "Journal"
+    },
+    "blockRules": {
+        "message": "Bloquer selon les règles"
+    },
+    "blockRulesShort": {
+        "message": "Règles de blocage"
+    },
+    "allowRules": {
+        "message": "Autoriser selon les règles"
+    },
+    "allowRulesShort": {
+        "message": "Règles d'autorisation"
+    },
+    "search": {
+        "message": "Rechercher"
+    },
+    "enableWildcard": {
+        "message": "Activer les jokers"
+    },
+    "save": {
+        "message": "Enregistrer"
+    },
+    "addRule": {
+        "message": "Ajouter une règle"
+    },
+    "deleteRule": {
+        "message": "Supprimer la règle"
+    },
+    "editRule": {
+        "message": "Modifier la règle"
+    },
+    "ruleExists": {
+        "message": "La règle {pattern} existe déjà"
+    },
+    "confirmDelete": {
+        "message": "Supprimer la règle {pattern} ?"
+    },
+    "testInputAreaTips": {
+        "message": "Un URL par ligne pour tester"
+    },
+    "testResult": {
+        "message": "Résultat du test"
+    },
+    "test": {
+        "message": "Tester"
+    },
+    "emptyRulePattern": {
+        "message": "La règle ne peut pas être vide"
+    },
+    "aboutContent": {
+        "message": "<h1>À propos de {name} {version}</h1><ul><li>Auteur: {author}</li><li>Open Source: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>Signaler un problème</a></li></ul>"
+    },
+    "logTips": {
+        "message": "Max 100 entrées. Actuellement :"
+    },
+    "matched": {
+        "message": "Correspond"
+    },
+    "intercepted": {
+        "message": "Intercepté"
+    },
+    "notMatched": {
+        "message": "Aucune règle correspondante"
+    },
+    "clearLog": {
+        "message": "Effacer le journal"
+    },
+    "wildcardStarDisc": {
+        "message": "Correspond à plusieurs caractères quelconques (y compris vide)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "Correspond à un seul caractère quelconque (y compris vide)."
+    },
+    "wildcard": {
+        "message": "Symbole Joker"
+    },
+    "wildcardDisc": {
+        "message": "Description des jokers"
+    },
+    "noActiveRules": {
+        "message": "Aucune règle active"
+    },
+    "activeRules": {
+        "message": "Règles actives"
+    },
+    "interceptedCount": {
+        "message": "Nombre d'interceptions"
+    },
+    "openEditor": {
+        "message": "Ouvrir l'éditeur"
+    },
+    "openLog": {
+        "message": "Voir le journal"
+    },
+    "ruleMode": {
+        "message": "Mode de règle"
+    },
+    "ruleModeDisc": {
+        "message": "Prioritaire sur le mode global"
+    },
+    "modeDisable": {
+        "message": "Désactiver"
+    },
+    "globalMode": {
+        "message": "Mode global"
+    },
+    "modeFllowGlobal": {
+        "message": "Suivre global"
+    },
+    "modelBlock": {
+        "message": "Bloquer"
+    },
+    "modelAllow": {
+        "message": "Autoriser"
+    },
+    "showBadge": {
+        "message": "Afficher le badge"
+    },
+    "darkMode": {
+        "message": "Mode sombre"
+    },
+    "rulesEmpty": {
+        "message": "Aucune donnée"
+    }
+}

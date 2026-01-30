@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Trình chặn lịch sử"
+    },
+    "extensionDesc": {
+        "message": "Chặn lịch sử mà không thay thế trang lịch sử. Hỗ trợ ký tự đại diện để kiểm soát chính xác dấu vết duyệt web."
+    },
+    "tabNameEditor": {
+        "message": "Trình biên tập quy tắc"
+    },
+    "tabNameAbout": {
+        "message": "Giới thiệu"
+    },
+    "tabNameLog": {
+        "message": "Nhật ký"
+    },
+    "blockRules": {
+        "message": "Chỉ chặn lịch sử khớp với quy tắc"
+    },
+    "blockRulesShort": {
+        "message": "Quy tắc chặn"
+    },
+    "allowRules": {
+        "message": "Chỉ cho phép lịch sử khớp với quy tắc"
+    },
+    "allowRulesShort": {
+        "message": "Quy tắc cho phép"
+    },
+    "search": {
+        "message": "Tìm kiếm"
+    },
+    "enableWildcard": {
+        "message": "Bật chế độ ký tự đại diện"
+    },
+    "save": {
+        "message": "Lưu"
+    },
+    "addRule": {
+        "message": "Thêm quy tắc"
+    },
+    "deleteRule": {
+        "message": "Xóa quy tắc"
+    },
+    "editRule": {
+        "message": "Sửa quy tắc"
+    },
+    "ruleExists": {
+        "message": "Quy tắc {pattern} đã tồn tại"
+    },
+    "confirmDelete": {
+        "message": "Xác nhận xóa quy tắc {pattern}?"
+    },
+    "testInputAreaTips": {
+        "message": "Mỗi dòng một URL để kiểm tra"
+    },
+    "testResult": {
+        "message": "Kết quả kiểm tra"
+    },
+    "test": {
+        "message": "Kiểm tra"
+    },
+    "emptyRulePattern": {
+        "message": "Quy tắc không được để trống"
+    },
+    "aboutContent": {
+        "message": "<h1>Giới thiệu {name} {version}</h1><ul><li>Tác giả: {author}</li><li>Mã nguồn: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>Báo lỗi</a></li></ul>"
+    },
+    "logTips": {
+        "message": "Tối đa 100 mục. Hiện có:"
+    },
+    "matched": {
+        "message": "Khớp"
+    },
+    "intercepted": {
+        "message": "Đã chặn"
+    },
+    "notMatched": {
+        "message": "Không khớp quy tắc nào"
+    },
+    "clearLog": {
+        "message": "Xóa nhật ký"
+    },
+    "wildcardStarDisc": {
+        "message": "Khớp với nhiều ký tự bất kỳ (bao gồm ký tự trống)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "Khớp với một ký tự bất kỳ (bao gồm ký tự trống)."
+    },
+    "wildcard": {
+        "message": "Ký tự đại diện"
+    },
+    "wildcardDisc": {
+        "message": "Hướng dẫn ký tự đại diện"
+    },
+    "noActiveRules": {
+        "message": "Không có quy tắc hiệu lực"
+    },
+    "activeRules": {
+        "message": "Quy tắc đang hiệu lực"
+    },
+    "interceptedCount": {
+        "message": "Số lần chặn"
+    },
+    "openEditor": {
+        "message": "Mở trình biên tập"
+    },
+    "openLog": {
+        "message": "Xem nhật ký"
+    },
+    "ruleMode": {
+        "message": "Chế độ quy tắc"
+    },
+    "ruleModeDisc": {
+        "message": "Ưu tiên hơn chế độ toàn cục"
+    },
+    "modeDisable": {
+        "message": "Vô hiệu hóa"
+    },
+    "globalMode": {
+        "message": "Chế độ toàn cục"
+    },
+    "modeFllowGlobal": {
+        "message": "Theo toàn cục"
+    },
+    "modelBlock": {
+        "message": "Chặn"
+    },
+    "modelAllow": {
+        "message": "Cho phép"
+    },
+    "showBadge": {
+        "message": "Hiện số lần chặn"
+    },
+    "darkMode": {
+        "message": "Chế độ tối"
+    },
+    "rulesEmpty": {
+        "message": "Không có dữ liệu"
+    }
+}

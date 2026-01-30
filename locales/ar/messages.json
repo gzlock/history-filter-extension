@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "اعتراض سجل التصفح"
+    },
+    "extensionDesc": {
+        "message": "اعتراض سجل التصفح دون استبدال صفحة السجل. يدعم الرموز العامة للتحكم الدقيق في آثار التصفح التي تريد الاحتفاظ بها."
+    },
+    "tabNameEditor": {
+        "message": "محرر القواعد"
+    },
+    "tabNameAbout": {
+        "message": "حول"
+    },
+    "tabNameLog": {
+        "message": "السجل"
+    },
+    "blockRules": {
+        "message": "اعتراض السجلات المطابقة للقواعد فقط"
+    },
+    "blockRulesShort": {
+        "message": "قواعد الحظر"
+    },
+    "allowRules": {
+        "message": "السماح بالسجلات المطابقة للقواعد فقط"
+    },
+    "allowRulesShort": {
+        "message": "قواعد السماح"
+    },
+    "search": {
+        "message": "بحث"
+    },
+    "enableWildcard": {
+        "message": "تمكين نمط الرموز العامة"
+    },
+    "save": {
+        "message": "حفظ"
+    },
+    "addRule": {
+        "message": "إضافة قاعدة"
+    },
+    "deleteRule": {
+        "message": "حذف القاعدة"
+    },
+    "editRule": {
+        "message": "تعديل القاعدة"
+    },
+    "ruleExists": {
+        "message": "القاعدة {pattern} موجودة بالفعل"
+    },
+    "confirmDelete": {
+        "message": "هل أنت متأكد من حذف القاعدة {pattern}؟"
+    },
+    "testInputAreaTips": {
+        "message": "عنوان URL واحد في كل سطر لاختبار المطابقة"
+    },
+    "testResult": {
+        "message": "نتيجة الاختبار"
+    },
+    "test": {
+        "message": "اختبار"
+    },
+    "emptyRulePattern": {
+        "message": "لا يمكن أن تكون القاعدة فارغة"
+    },
+    "aboutContent": {
+        "message": "<h1>حول {name} {version}</h1><ul><li>المؤلف: {author}</li><li>المصدر: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter-extension/issues'>الإبلاغ عن المشاكل</a></li></ul>"
+    },
+    "logTips": {
+        "message": "الحد الأقصى 100 سجل، العدد الحالي:"
+    },
+    "matched": {
+        "message": "مطابق"
+    },
+    "intercepted": {
+        "message": "تم اعتراضه"
+    },
+    "notMatched": {
+        "message": "غير مطابق لأي قاعدة"
+    },
+    "clearLog": {
+        "message": "مسح السجل"
+    },
+    "wildcardStarDisc": {
+        "message": "يطابق أي عدد من الأحرف (بما في ذلك الفراغ)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "يطابق حرفاً واحداً (بما في ذلك الفراغ)."
+    },
+    "wildcard": {
+        "message": "رمز عام"
+    },
+    "wildcardDisc": {
+        "message": "شرح الرموز العامة"
+    },
+    "noActiveRules": {
+        "message": "لا توجد قواعد فعالة"
+    },
+    "activeRules": {
+        "message": "القواعد الفعالة"
+    },
+    "interceptedCount": {
+        "message": "عدد الاعتراضات"
+    },
+    "openEditor": {
+        "message": "فتح المحرر"
+    },
+    "openLog": {
+        "message": "عرض السجل"
+    },
+    "ruleMode": {
+        "message": "نمط القاعدة"
+    },
+    "ruleModeDisc": {
+        "message": "له الأولوية على النمط العام"
+    },
+    "modeDisable": {
+        "message": "تعطيل"
+    },
+    "globalMode": {
+        "message": "النمط العام"
+    },
+    "modeFllowGlobal": {
+        "message": "اتباع العام"
+    },
+    "modelBlock": {
+        "message": "حظر"
+    },
+    "modelAllow": {
+        "message": "سماح"
+    },
+    "showBadge": {
+        "message": "إظهار العداد"
+    },
+    "darkMode": {
+        "message": "الوضع الداكن"
+    },
+    "rulesEmpty": {
+        "message": "لا توجد بيانات"
+    }
+}

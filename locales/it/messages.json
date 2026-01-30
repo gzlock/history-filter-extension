@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Intercettore cronologia"
+    },
+    "extensionDesc": {
+        "message": "Intercetta la cronologia senza sostituire la pagina dedicata. Supporta i caratteri jolly per un controllo preciso."
+    },
+    "tabNameEditor": {
+        "message": "Editor regole"
+    },
+    "tabNameAbout": {
+        "message": "Info"
+    },
+    "tabNameLog": {
+        "message": "Registro"
+    },
+    "blockRules": {
+        "message": "Blocca solo cronologia corrispondente"
+    },
+    "blockRulesShort": {
+        "message": "Regole blocco"
+    },
+    "allowRules": {
+        "message": "Consenti solo cronologia corrispondente"
+    },
+    "allowRulesShort": {
+        "message": "Regole consenso"
+    },
+    "search": {
+        "message": "Cerca"
+    },
+    "enableWildcard": {
+        "message": "Abilita caratteri jolly"
+    },
+    "save": {
+        "message": "Salva"
+    },
+    "addRule": {
+        "message": "Aggiungi regola"
+    },
+    "deleteRule": {
+        "message": "Elimina regola"
+    },
+    "editRule": {
+        "message": "Modifica regola"
+    },
+    "ruleExists": {
+        "message": "La regola {pattern} esiste già"
+    },
+    "confirmDelete": {
+        "message": "Eliminare la regola {pattern}?"
+    },
+    "testInputAreaTips": {
+        "message": "Un URL per riga per testare"
+    },
+    "testResult": {
+        "message": "Risultato test"
+    },
+    "test": {
+        "message": "Test"
+    },
+    "emptyRulePattern": {
+        "message": "La regola non può essere vuota"
+    },
+    "aboutContent": {
+        "message": "<h1>Info su {name} {version}</h1><ul><li>Autore: {author}</li><li>Open Source: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>Segnala problemi</a></li></ul>"
+    },
+    "logTips": {
+        "message": "Max 100 voci. Conteggio attuale:"
+    },
+    "matched": {
+        "message": "Corrisponde"
+    },
+    "intercepted": {
+        "message": "Intercettato"
+    },
+    "notMatched": {
+        "message": "Nessuna corrispondenza"
+    },
+    "clearLog": {
+        "message": "Cancella registro"
+    },
+    "wildcardStarDisc": {
+        "message": "Corrisponde a più caratteri (inclusi vuoti)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "Corrisponde a un singolo carattere (inclusi vuoti)."
+    },
+    "wildcard": {
+        "message": "Simbolo jolly"
+    },
+    "wildcardDisc": {
+        "message": "Spiegazione jolly"
+    },
+    "noActiveRules": {
+        "message": "Nessuna regola attiva"
+    },
+    "activeRules": {
+        "message": "Regole attive"
+    },
+    "interceptedCount": {
+        "message": "Conteggio intercettazioni"
+    },
+    "openEditor": {
+        "message": "Apri editor"
+    },
+    "openLog": {
+        "message": "Vedi registro"
+    },
+    "ruleMode": {
+        "message": "Modalità regola"
+    },
+    "ruleModeDisc": {
+        "message": "Priorità rispetto alla modalità globale"
+    },
+    "modeDisable": {
+        "message": "Disabilita"
+    },
+    "globalMode": {
+        "message": "Modalità globale"
+    },
+    "modeFllowGlobal": {
+        "message": "Segui globale"
+    },
+    "modelBlock": {
+        "message": "Blocca"
+    },
+    "modelAllow": {
+        "message": "Consenti"
+    },
+    "showBadge": {
+        "message": "Mostra badge"
+    },
+    "darkMode": {
+        "message": "Modalità scura"
+    },
+    "rulesEmpty": {
+        "message": "Nessun dato"
+    }
+}

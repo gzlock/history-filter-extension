@@ -10,6 +10,17 @@
             "request": "launch",
             "command": "pnpm run dev --verbose",
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "name": "运行 screenshot.mjs",
+            "request": "launch",
+            "program": "${workspaceFolder}/screenshot.mjs",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
         }
     ]
 }

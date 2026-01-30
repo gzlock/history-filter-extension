@@ -1,5 +1,6 @@
+import { log } from "console";
 import { RuleMode, type BackGroundRule } from "~types";
-import { addLog, formatRawUrl, loadConfig, wildcardToReg } from "~utils";
+import { addLog, clearConfig, clearLog, formatRawUrl, isDev, loadConfig, saveConfig, wildcardToReg } from "~utils";
 
 // chrome.action.onClicked.addListener(() => { chrome.runtime.openOptionsPage() });
 
@@ -14,6 +15,7 @@ const rules: BackGroundRule[] = [];
 
 // 拦截次数
 let count = 0;
+
 
 function ruleMatcher(rule: BackGroundRule, url: string): boolean {
     let matched = false;
@@ -102,3 +104,54 @@ async function load(): Promise<void> {
 }
 
 readyPromise = load();
+
+if (process.env.PLASMO_PUBLIC_SCREENSHOT_MODE === "true") {
+    console.log('处于自动化截图模式');
+
+    (async () => {
+        await clearConfig();
+        await clearLog();
+        await saveConfig({
+            isBlockRules: true,
+            showBadge: true,
+            darkMode: false,
+            rules: [
+                {
+                    id: '1',
+                    pattern: 'example.com*',
+                    mode: RuleMode.block,
+                    isWildcard: true
+                },
+                {
+                    id: '2',
+                    pattern: 'x.com*',
+                    mode: RuleMode.block,
+                    isWildcard: true
+                }
+            ]
+        });
+        Promise.all([
+            addLog({
+                timestamp: Date.now(),
+                pattern: 'example.com*',
+                url: 'https://example.com'
+            }),
+            addLog({
+                timestamp: Date.now() + 5000,
+                pattern: 'example.com*',
+                url: 'https://example.com?a=b&c=d'
+            }),
+            addLog({
+                timestamp: Date.now() + 10000,
+                pattern: 'x.com*',
+                url: 'https://x.com/i/grok'
+            }),
+            addLog({
+                timestamp: Date.now() + 15000,
+                pattern: 'x.com*',
+                url: 'https://x.com/gzlock88'
+            }),
+        ]);
+    })();
+
+}

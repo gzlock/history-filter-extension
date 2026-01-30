@@ -21,5 +21,8 @@
     },
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     }
 }

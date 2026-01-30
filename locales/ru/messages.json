@@ -1,0 +1,140 @@
+{
+    "extensionName": {
+        "message": "Перехватчик истории"
+    },
+    "extensionDesc": {
+        "message": "Блокирует историю, не заменяя страницу истории. Поддержка подстановочных знаков для точного управления следами."
+    },
+    "tabNameEditor": {
+        "message": "Редактор правил"
+    },
+    "tabNameAbout": {
+        "message": "О программе"
+    },
+    "tabNameLog": {
+        "message": "Журнал"
+    },
+    "blockRules": {
+        "message": "Блокировать по правилам"
+    },
+    "blockRulesShort": {
+        "message": "Блокировка"
+    },
+    "allowRules": {
+        "message": "Разрешать по правилам"
+    },
+    "allowRulesShort": {
+        "message": "Разрешение"
+    },
+    "search": {
+        "message": "Поиск"
+    },
+    "enableWildcard": {
+        "message": "Включить маски (*, ?)"
+    },
+    "save": {
+        "message": "Сохранить"
+    },
+    "addRule": {
+        "message": "Добавить правило"
+    },
+    "deleteRule": {
+        "message": "Удалить"
+    },
+    "editRule": {
+        "message": "Изменить"
+    },
+    "ruleExists": {
+        "message": "Правило {pattern} уже существует"
+    },
+    "confirmDelete": {
+        "message": "Удалить правило {pattern}?"
+    },
+    "testInputAreaTips": {
+        "message": "Один URL на строку для теста"
+    },
+    "testResult": {
+        "message": "Результат теста"
+    },
+    "test": {
+        "message": "Тест"
+    },
+    "emptyRulePattern": {
+        "message": "Правило не может быть пустым"
+    },
+    "aboutContent": {
+        "message": "<h1>О {name} {version}</h1><ul><li>Автор: {author}</li><li>Исходный код: <a target='_blank' href='https://github.com/gzlock/history-filter-extension'>Github</a></li><li><a target='_blank' href='https://github.com/gzlock/history-filter/issues'>Сообщить об ошибке</a></li></ul>"
+    },
+    "logTips": {
+        "message": "Макс. 100 записей. Сейчас:"
+    },
+    "matched": {
+        "message": "Совпало"
+    },
+    "intercepted": {
+        "message": "Заблокировано"
+    },
+    "notMatched": {
+        "message": "Нет совпадений"
+    },
+    "clearLog": {
+        "message": "Очистить журнал"
+    },
+    "wildcardStarDisc": {
+        "message": "Любое количество любых символов (включая пустые)."
+    },
+    "wildcardQuestionMarkDisc": {
+        "message": "Один любой символ (включая пустые)."
+    },
+    "wildcard": {
+        "message": "Символ маски"
+    },
+    "wildcardDisc": {
+        "message": "Описание масок"
+    },
+    "noActiveRules": {
+        "message": "Нет активных правил"
+    },
+    "activeRules": {
+        "message": "Активные правила"
+    },
+    "interceptedCount": {
+        "message": "Кол-во блокировок"
+    },
+    "openEditor": {
+        "message": "Открыть редактор"
+    },
+    "openLog": {
+        "message": "Открыть журнал"
+    },
+    "ruleMode": {
+        "message": "Режим правила"
+    },
+    "ruleModeDisc": {
+        "message": "Приоритет выше глобального режима"
+    },
+    "modeDisable": {
+        "message": "Выкл"
+    },
+    "globalMode": {
+        "message": "Глобальный режим"
+    },
+    "modeFllowGlobal": {
+        "message": "Как в глобальном"
+    },
+    "modelBlock": {
+        "message": "Блок"
+    },
+    "modelAllow": {
+        "message": "Ок"
+    },
+    "showBadge": {
+        "message": "Показать счетчик"
+    },
+    "darkMode": {
+        "message": "Темная тема"
+    },
+    "rulesEmpty": {
+        "message": "Нет данных"
+    }
+}
