@@ -1,5 +1,5 @@
 <template>
-    <div class="editor_container height100Percent">
+    <div class="editor_container">
         <el-form label-width="150px">
             <el-form-item :label="strGlobalMode">
                 <el-switch class="rule-switch" v-model="config.isBlockRules" :active-text="strBlockRules"
@@ -13,9 +13,9 @@
             </el-form-item>
         </el-form>
         <el-divider />
-        <div class="height100Percent" style="flex: 1;">
-            <el-row :gutter="10" class="el-row height100Percent">
-                <el-col :span="12" class="height100Percent" style="overflow-y: auto;">
+        <div style="flex: 1;">
+            <el-row :gutter="10">
+                <el-col :span="12" style="overflow-y: auto;">
                     <el-table ref="$table" :data="searchedRules" highlight-current-row
                         @current-change="handleCurrentChange" :border="true" height="100%" :empty-text="strRulesEmpty">
                         <!-- <el-table-column type="index" width="50" /> -->
@@ -37,7 +37,7 @@
                         </el-table-column>
                     </el-table>
                 </el-col>
-                <el-col :span="12" class="height100Percent" style="overflow-y: auto;">
+                <el-col :span="12" style="overflow-y: auto;">
                     <rule-editor v-if="currentRow" :rule="currentRow" :on-submit="onSubmit" />
                 </el-col>
             </el-row>
